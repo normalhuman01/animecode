@@ -90,5 +90,5 @@ Once you have purchased Cpanel from hosting provider then follow these:
 First download the repository using. After cloning, change the repo name to your site name.
 
 ```sh
-git clone https://github.com/warlordsnet/animezia.com
-cd animezia.com
+git clone https://github.com/normalhuman01/animecode.com
+cd animecode.com
