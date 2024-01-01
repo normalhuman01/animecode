@@ -14,29 +14,29 @@ $episodelist = $getAnime['episode_id'];
 <html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-    <title>Watch <?=$getAnime['name']?> - AnimeZia</title>
+    <title>Watch <?=$getAnime['name']?> - AnimeCode</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="title" content="Watch <?=$getAnime['name']?> - AnimeZia" />
-    <meta name="description" content="<?=substr($getAnime['synopsis'],0, 90)?>.... Read More On AnimeZia" />
-    <meta name="keywords" content="AnimeZia, watch anime online, free anime, anime stream, anime hd, english sub, kissanime, gogoanime, animeultima, 9anime, 123animes, AnimeZia, vidstreaming, gogo-stream, animekisa, zoro.to, gogoanime.run, animefrenzy, animekisa" />
+    <meta name="title" content="Watch <?=$getAnime['name']?> - AnimeCode" />
+    <meta name="description" content="<?=substr($getAnime['synopsis'],0, 90)?>.... Read More On AnimeCode" />
+    <meta name="keywords" content="AnimeCode, watch anime online, free anime, anime stream, anime hd, english sub, kissanime, gogoanime, animeultima, 9anime, 123animes, AnimeCode, vidstreaming, gogo-stream, animekisa, zoro.to, gogoanime.run, animefrenzy, animekisa" />
     <meta name="charset" content="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <meta name="robots" content="index, follow" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta http-equiv="Content-Language" content="en" />
-    <meta property="og:title" content="Watch <?=$getAnime['name']?> - AnimeZia">
-    <meta property="og:description" content="W<?=substr($getAnime['synopsis'],0, 90)?>.... Read More On AnimeZia.">
+    <meta property="og:title" content="Watch <?=$getAnime['name']?> - AnimeCode">
+    <meta property="og:description" content="W<?=substr($getAnime['synopsis'],0, 90)?>.... Read More On AnimeCode.">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="AnimeZia">
+    <meta property="og:site_name" content="AnimeCode">
     <meta property="og:url" content="<?=$websiteUrl?>/anime/<?=$url?>">
     <meta itemprop="image" content="<?=$getAnime['imageUrl']?>">
     <meta property="og:image" content="<?=$getAnime['imageUrl']?>">
     <meta property="og:image:secure_url" content="<?=$getAnime['imageUrl']?>">
     <meta property="og:image:width" content="650">
     <meta property="og:image:height" content="350">
-    <meta property="twitter:title" content="Watch <?=$getAnime['name']?> - AnimeZia">
-    <meta property="twitter:description" ontent="W<?=substr($getAnime['synopsis'],0, 90)?>.... Read More On AnimeZia.">
+    <meta property="twitter:title" content="Watch <?=$getAnime['name']?> - AnimeCode">
+    <meta property="twitter:description" ontent="W<?=substr($getAnime['synopsis'],0, 90)?>.... Read More On AnimeCode.">
     <meta property="twitter:url" content="<?=$websiteUrl?>/anime/<?=$url?>">
     <meta property="twitter:card" content="summary">
     <meta name="apple-mobile-web-app-status-bar" content="#202125">
@@ -137,7 +137,7 @@ $episodelist = $getAnime['episode_id'];
                                     <a href="/watch/<?php foreach(array_slice($episodelist, 0, 1) as $episode1) {?><?=$episode1['episodeId']?><?php } ?>" class="btn btn-radius btn-primary btn-play"><i
                                             class="fas fa-play mr-2"></i>Watch now</a>
 											
-									<button onclick="saveToPlaylist('Anime List', '<?=$getAnime['name']?>', 'https://the.animezia.com/anime/<?=$url?>', 'https://ik.imagekit.io/<?=$imgk?>/tr:w-100,tr:f-webp/<?=$getAnime['imageUrl']?>');checkIfBookmarked('Anime List', '<?=$getAnime['name']?>')" id="save-to-playlist-button" class="btn btn-primary"><i
+									<button onclick="saveToPlaylist('Anime List', '<?=$getAnime['name']?>', 'https://the.animecode.com/anime/<?=$url?>', 'https://ik.imagekit.io/<?=$imgk?>/tr:w-100,tr:f-webp/<?=$getAnime['imageUrl']?>');checkIfBookmarked('Anime List', '<?=$getAnime['name']?>')" id="save-to-playlist-button" class="btn btn-primary"><i
                                             class="fas fa-bookmark mr-2"></i>Watch later</button>		
                                 </div>
                                 <?php } ?>
@@ -151,7 +151,7 @@ $episodelist = $getAnime['episode_id'];
                                 <div class="film-description m-hide">
                                     <div class="text"><?=$getAnime['synopsis']?></div>
                                 </div>
-                                <div class="film-text m-hide">AnimeZia is a site to watch online anime like <strong><?=$getAnime['name']?></strong> online, or you can even watch <strong><?=$getAnime['name']?></strong> in HD quality</div>
+                                <div class="film-text m-hide">AnimeCode is a site to watch online anime like <strong><?=$getAnime['name']?></strong> online, or you can even watch <strong><?=$getAnime['name']?></strong> in HD quality</div>
                                 
                             </div>
                             <div class="anisc-info-wrap">
@@ -189,7 +189,7 @@ $episodelist = $getAnime['episode_id'];
                                     <div class="item item-list">
                                         <span class="item-head">Genres:</span> <?php foreach($getAnime['genres'] as $genre) { ?><a href="<?=$websiteUrl?>/genre/<?php $genreUrl = strtolower($genre); echo str_replace(" ","+", $genreUrl);?>"><?=$genre?></a><?php } ?>
                                     </div>
-                                    <div class="film-text w-hide">AnimeZia is a site to watch online anime like <strong><?=$getAnime['name']?></strong> online, or you can even watch <strong><?=$getAnime['name']?></strong> in HD quality</div>
+                                    <div class="film-text w-hide">AnimeCode is a site to watch online anime like <strong><?=$getAnime['name']?></strong> online, or you can even watch <strong><?=$getAnime['name']?></strong> in HD quality</div>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>

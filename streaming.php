@@ -16,7 +16,7 @@ $getEpisode = json_decode($respo, true);
 curl_close($ch);
 
 $anime = $getEpisode['anime_info'];
-$download = str_replace("Gogoanime", "Animezia", $getEpisode['ep_download']);
+$download = str_replace("Gogoanime", "Animecode", $getEpisode['ep_download']);
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "$api/getAnime/$anime");
@@ -35,25 +35,25 @@ $episodelist = $getAnime['episode_id'];
 <html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-    <title>Watch <?=$getEpisode['animeNameWithEP']?>on AnimeZia</title>
+    <title>Watch <?=$getEpisode['animeNameWithEP']?>on AnimeCode</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="title" content="Watch <?=$getEpisode['animeNameWithEP']?> on AnimeZia">
+    <meta name="title" content="Watch <?=$getEpisode['animeNameWithEP']?> on AnimeCode">
     <meta name="description" content="<?=substr($getAnime['synopsis'],0, 150)?> ... at <?=$websiteUrl?>">
-    <meta name="keywords" content="AnimeZia, <?=$getEpisode['animeNameWithEP']?>,<?=$getAnime['name']?>, watch anime online, free anime, anime stream, anime hd, english sub">
+    <meta name="keywords" content="AnimeCode, <?=$getEpisode['animeNameWithEP']?>,<?=$getAnime['name']?>, watch anime online, free anime, anime stream, anime hd, english sub">
     <meta name="charset" content="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="robots" content="index, follow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="Content-Language" content="en">
-    <meta property="og:title" content="Watch <?=$getEpisode['animeNameWithEP']?>on AnimeZia">
+    <meta property="og:title" content="Watch <?=$getEpisode['animeNameWithEP']?>on AnimeCode">
     <meta property="og:description" content="<?=substr($getAnime['synopsis'],0, 150)?> ... at <?=$websiteUrl?>">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="AnimeZia">
+    <meta property="og:site_name" content="AnimeCode">
     <meta property="og:url" content="<?=$websiteUrl?>/anime/<?=$url?>">
     <meta itemprop="image" content="<?=$getAnime['imageUrl']?>">
     <meta property="og:image" content="<?=$getAnime['imageUrl']?>">
-    <meta property="twitter:title" content="Watch <?=$getEpisode['animeNameWithEP']?>on AnimeZia">
+    <meta property="twitter:title" content="Watch <?=$getEpisode['animeNameWithEP']?>on AnimeCode">
     <meta property="twitter:description" content="<?=substr($getAnime['synopsis'],0, 150)?> ... at <?=$websiteUrl?>">
     <meta property="twitter:url" content="<?=$websiteUrl?>/anime/<?=$url?>">
     <meta property="twitter:card" content="summary">
@@ -122,7 +122,7 @@ $episodelist = $getAnime['episode_id'];
                                                 <div class="span3"></div>
                                             </div>
                                         </div>
-                                        <iframe name="iframe-to-load" id="iframeid" src="https://the.animezia.com/player/v1.php?id=<?=$url?>&download=<?=$download?>" frameborder="0" scrolling="no" allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+                                        <iframe name="iframe-to-load" id="iframeid" src="https://the.animecode.com/player/v1.php?id=<?=$url?>&download=<?=$download?>" frameborder="0" scrolling="no" allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
                                     </div>
                                     <div class="player-controls">
                                         <div class="pc-item pc-resize">
@@ -177,14 +177,14 @@ $episodelist = $getAnime['episode_id'];
                                             <div class="ps__-title"><i class="fas fa-server mr-2"></i>SERVERS:</div>
                                             <div class="ps__-list">
 											<div class="item">
-                                                    <a id="server1" href="https://the.animezia.com/player/v1.php?id=<?=$url?>&download=<?=$download?>" target="iframe-to-load" class="btn btn-server active">Server 1</a>
+                                                    <a id="server1" href="https://the.animecode.com/player/v1.php?id=<?=$url?>&download=<?=$download?>" target="iframe-to-load" class="btn btn-server active">Server 1</a>
                                                 </div>
                                                 <div class="item">
-                                                    <a id="server2" href="https://animezia.com/player/<?=$url?>" target="iframe-to-load" class="btn btn-server">Server 2</a>
+                                                    <a id="server2" href="https://animecode.com/player/<?=$url?>" target="iframe-to-load" class="btn btn-server">Server 2</a>
                                                 </div>
 												
 												<div class="item">
-                                                    <a id="server3" href="https://the.animezia.com/player/v2.php?id=<?=$url?>" target="iframe-to-load" class="btn btn-server">Server 3</a>
+                                                    <a id="server3" href="https://the.animecode.com/player/v2.php?id=<?=$url?>" target="iframe-to-load" class="btn btn-server">Server 3</a>
                                                 </div>
                                                 
                                             </div>
@@ -249,7 +249,7 @@ $episodelist = $getAnime['episode_id'];
                                             <img src="https://ik.imagekit.io/<?=$imgk?>/tr:w-200,f-webp/<?=$getAnime['imageUrl']?>"
                                                 data-src="https://ik.imagekit.io/<?=$imgk?>/tr:w-200,f-webp/<?=$getAnime['imageUrl']?>"
                                                 class="film-poster-img ls-is-cached lazyloaded"
-                                                alt="Watch free online <?=$getAnime['name']?> on animezia">
+                                                alt="Watch free online <?=$getAnime['name']?> on animecode">
                                         </div>
                                     </div>
                                     <div class="anisc-detail">
@@ -279,10 +279,10 @@ $episodelist = $getAnime['episode_id'];
 									
                                                     <a id="subdub" class="btn btn-primary">Switch Sub?Dub</a>
 													
-                                      <button id="save-to-playlist-button" onclick="saveToPlaylist('Anime List', '<?=$getAnime['name']?> Ep <?=$getEpisode['ep_num']?>', 'https://the.animezia.com/watch/<?=$url?>', 'https://ik.imagekit.io/<?=$imgk?>/tr:w-100,tr:f-webp/<?=$getAnime['imageUrl']?>');checkIfBookmarked('Anime List', '<?=$getAnime['name']?> Ep <?=$getEpisode['ep_num']?>')" class="btn btn-radius btn-primary btn-play"><i
+                                      <button id="save-to-playlist-button" onclick="saveToPlaylist('Anime List', '<?=$getAnime['name']?> Ep <?=$getEpisode['ep_num']?>', 'https://the.animecode.com/watch/<?=$url?>', 'https://ik.imagekit.io/<?=$imgk?>/tr:w-100,tr:f-webp/<?=$getAnime['imageUrl']?>');checkIfBookmarked('Anime List', '<?=$getAnime['name']?> Ep <?=$getEpisode['ep_num']?>')" class="btn btn-radius btn-primary btn-play"><i
                                             class="fas fa-bookmark mr-2"></i>Watch later</button>
 											
-                                            AnimeZia is a site to watch online anime like <strong><?=$getAnime['name']?></strong> online, or you can even watch <strong><?=$getAnime['name']?></strong> in HD quality
+                                            AnimeCode is a site to watch online anime like <strong><?=$getAnime['name']?></strong> online, or you can even watch <strong><?=$getAnime['name']?></strong> in HD quality
                                         </div>
                                         <div class="block"><a href="/anime/<?=$anime?>"
                                                 class="btn btn-xs btn-light"><i class="fas fa-book-open mr-2"></i> View detail</a></div>
@@ -386,12 +386,12 @@ checkIfBookmarked('Anime List', '<?=$getAnime['name']?> Ep <?=$getEpisode['ep_nu
         <div class="container">
             <div class="footer-top">
                 <a href="/" class="footer-logo">
-                    <img src="<?=$cdn?>/images/logo.webp" alt="AnimeZia">
+                    <img src="<?=$cdn?>/images/logo.webp" alt="AnimeCode">
                     <div class="clearfix"></div>
                 </a>
                 <div class="footer-joingroup">
                     <div class="zoro-group">
-                        <div class="zrg-title"><span class="top">Join now</span><span class="bottom">AnimeZia
+                        <div class="zrg-title"><span class="top">Join now</span><span class="bottom">AnimeCode
                                 Groups</span></div>
                         <div class="zrg-list">
                             <div class="item"><a target="_blank" href="<?=$websiteUrl?>/donate" class="zr-social-button tl-btn"><i
@@ -478,9 +478,9 @@ checkIfBookmarked('Anime List', '<?=$getAnime['name']?> Ep <?=$getEpisode['ep_nu
                 </ul>
                 <div class="clearfix"></div>
             </div>
-            <div class="about-text">AnimeZia does not store any files on our server, we only share link to the
+            <div class="about-text">AnimeCode does not store any files on our server, we only share link to the
                 media which is hosted on 3rd party services.</div>
-           <p class="copyright">Served with <i class="fas fa-heart"></i> AnimeZia 2023. Frontend by Otakatsu</p>
+           <p class="copyright">Served with <i class="fas fa-heart"></i> AnimeCode 2023. Frontend by Otakatsu</p>
         </div>
     </div>
 </div>

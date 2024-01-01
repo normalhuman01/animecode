@@ -9,22 +9,22 @@ if ($page == ""){
 <html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-    <title>Popular Anime on AnimeZia</title>
+    <title>Popular Anime on AnimeCode</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="title" content="Popular Anime on AnimeZia">
+    <meta name="title" content="Popular Anime on AnimeCode">
     <meta name="description" content="Popular Anime in HD with No Ads. Watch anime online">
-    <meta name="keywords" content="AnimeZia, watch anime online, free anime, anime stream, anime hd, english sub, kissanime, gogoanime, animeultima, 9anime, 123animes, AnimeZia, vidstreaming, gogo-stream, animekisa, zoro.to, gogoanime.run, animefrenzy, animekisa">
+    <meta name="keywords" content="AnimeCode, watch anime online, free anime, anime stream, anime hd, english sub, kissanime, gogoanime, animeultima, 9anime, 123animes, AnimeCode, vidstreaming, gogo-stream, animekisa, zoro.to, gogoanime.run, animefrenzy, animekisa">
     <meta name="charset" content="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="Content-Language" content="en">
-    <meta property="og:title" content="Popular Anime on AnimeZia">
-    <meta property="og:description" content="Popular Anime on AnimeZia in HD with No Ads. Watch anime online">
+    <meta property="og:title" content="Popular Anime on AnimeCode">
+    <meta property="og:description" content="Popular Anime on AnimeCode in HD with No Ads. Watch anime online">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="AnimeZia">
+    <meta property="og:site_name" content="AnimeCode">
     <meta itemprop="image" content="<?=$cdn?>/images/banner.webp">
     <meta property="og:image" content="<?=$cdn?>/images/banner.webp">
     <meta property="og:image:width" content="650">
@@ -110,7 +110,7 @@ if ($page == ""){
                                             <img class="film-poster-img lazyload"
                                                 data-src="https://ik.imagekit.io/<?=$imgk?>/tr:f-webp/<?=$popular['imgUrl']?>"
                                                 src="<?=$cdn?>/images/no_poster.jpg"
-                                                alt="watch stream <?=$popular['animeTitle']?> online animezia">
+                                                alt="watch stream <?=$popular['animeTitle']?> online animecode">
                                             <a class="film-poster-ahref"
                                                 href="/anime/<?=$popular['animeId']?>"
                                                 title="<?=$popular['animeTitle']?>"

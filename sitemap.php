@@ -20,10 +20,10 @@ echo "<sitemapindex xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>"."\n";
     <loc>https://<?=$_SERVER['SERVER_NAME']?>/sitemaps/recentSUB-sitemap.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://tech.animezia.com/post-sitemap.xml</loc>
+    <loc>https://tech.animecode.com/post-sitemap.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://animezia.com/sitemap.xml</loc>
+    <loc>https://animecode.com/sitemap.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://snaply.in/sitemap.xml</loc>

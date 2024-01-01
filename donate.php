@@ -3,22 +3,22 @@
 <html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-    <title>Donate - AnimeZia</title>
+    <title>Donate - AnimeCode</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="title" content="Donate - AnimeZia">
+    <meta name="title" content="Donate - AnimeCode">
     <meta name="description" content="Anime in HD with No Ads. Watch anime online">
     <meta name="keywords"
-        content="AnimeZia, watch anime online, free anime, anime stream, anime hd, english sub, kissanime, gogoanime, animeultima, 9anime, 123animes, AnimeZia, vidstreaming, gogo-stream, animekisa, zoro.to, gogoanime.run, animefrenzy, animekisa">
+        content="AnimeCode, watch anime online, free anime, anime stream, anime hd, english sub, kissanime, gogoanime, animeultima, 9anime, 123animes, AnimeCode, vidstreaming, gogo-stream, animekisa, zoro.to, gogoanime.run, animefrenzy, animekisa">
     <meta name="charset" content="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="robots" content="index, follow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="Content-Language" content="en">
-    <meta property="og:title" content="Donate - AnimeZia">
-    <meta property="og:description" content="Anime on AnimeZia in HD with No Ads. Watch anime online">
+    <meta property="og:title" content="Donate - AnimeCode">
+    <meta property="og:description" content="Anime on AnimeCode in HD with No Ads. Watch anime online">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="AnimeZia">
+    <meta property="og:site_name" content="AnimeCode">
     <meta itemprop="image" content="<?=$cdn?>/images/banner.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" type="text/css">
@@ -68,7 +68,7 @@
 					</div>
                     <div class="c4-button">
                         <a href="<?=$websiteUrl?>" class="btn btn-radius btn-focus"><i class="fa fa-chevron-circle-left mr-2"></i>Back
-                            to AnimeZia</a>
+                            to AnimeCode</a>
                     </div>
                 </div>
                 <div class="clearfix"></div>

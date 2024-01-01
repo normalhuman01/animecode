@@ -3,19 +3,19 @@
 <html lang="en">
 
 <head>
-    <title>DMCA - AnimeZia</title>
+    <title>DMCA - AnimeCode</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="robots" content="index,follow" />
     <meta http-equiv="content-language" content="en" />
     <meta name="description"
-        content="AnimeZia is a Free anime streaming website which you can watch English Subbed and Dubbed Anime online with No Account and Daily update. WATCH NOW!" />
+        content="AnimeCode is a Free anime streaming website which you can watch English Subbed and Dubbed Anime online with No Account and Daily update. WATCH NOW!" />
     <meta name="keywords"
         content="anime to watch, watch anime,anime online, free anime online, online anime, anime streaming, stream anime online, english anime, english dubbed anime" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="<?=$websiteUrl?>/dmca" />
-    <meta property="og:title" content="DMCA - AnimeZia" />
+    <meta property="og:title" content="DMCA - AnimeCode" />
     <meta property="og:image" content="<?=$cdn?>/images/banner.webp" />
-    <meta property="og:description"  content="AnimeZia is a Free anime streaming website which you can watch English Subbed and Dubbed Anime online with No Account and Daily update. WATCH NOW!" />
+    <meta property="og:description"  content="AnimeCode is a Free anime streaming website which you can watch English Subbed and Dubbed Anime online with No Account and Daily update. WATCH NOW!" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 
     <link rel="shortcut icon" href="<?=$websiteUrl?>/favicon.ico" type="image/x-icon">

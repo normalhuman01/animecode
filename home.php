@@ -5,21 +5,21 @@ require('./_config.php');
 <html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-   <title>AnimeZia - Official AnimeZia #1 Watch High Quality Anime Online Without Ads</title>
+   <title>AnimeCode - Official AnimeCode #1 Watch High Quality Anime Online Without Ads</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="title" content="AnimeZia - Official AnimeZia #1 Watch High Quality Anime Online Without Ads" />
-    <meta name="description" content="AnimeZia - Official AnimeZia #1 Watch High Quality Anime Online Without Ads. You can watch anime online free in HD without Ads. Best place for free find and one-click anime." />
-    <meta name="keywords" content="animezia, animezia anime, download anime, otakuu, watch anime online, free anime, anime stream, anime hd, english sub, kissanime, gogoanime, animeultima, 9anime, 123animes, vidstreaming, gogo-stream, animekisa, zoro.to, gogoanime.run, animefrenzy, animekisa" />
+    <meta name="title" content="AnimeCode - Official AnimeCode #1 Watch High Quality Anime Online Without Ads" />
+    <meta name="description" content="AnimeCode - Official AnimeCode #1 Watch High Quality Anime Online Without Ads. You can watch anime online free in HD without Ads. Best place for free find and one-click anime." />
+    <meta name="keywords" content="AnimeCode, AnimeCode anime, download anime, otakuu, watch anime online, free anime, anime stream, anime hd, english sub, kissanime, gogoanime, animeultima, 9anime, 123animes, vidstreaming, gogo-stream, animekisa, zoro.to, gogoanime.run, animefrenzy, animekisa" />
     <meta name="charset" content="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <meta name="robots" content="index, follow" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta http-equiv="Content-Language" content="en" />
-    <meta property="og:title" content="AnimeZia - Official AnimeZia #1 Watch High Quality Anime Online Without Ads">
-    <meta property="og:description" content="AnimeZia - Official AnimeZia #1 Watch High Quality Anime Online Without Ads. You can watch anime online free in HD without Ads. Best place for free find and one-click anime.">
+    <meta property="og:title" content="AnimeCode - Official AnimeCode #1 Watch High Quality Anime Online Without Ads">
+    <meta property="og:description" content="AnimeCode - Official AnimeCode #1 Watch High Quality Anime Online Without Ads. You can watch anime online free in HD without Ads. Best place for free find and one-click anime.">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="AnimeZia">
+    <meta property="og:site_name" content="AnimeCode">
     <meta property="og:url" content="<?=$websiteUrl?>/home">
     <meta itemprop="image" content="<?=$cdn?>/images/banner.webp">
     <meta property="og:image" content="<?=$cdn?>/images/banner.webp">
@@ -57,7 +57,7 @@ require('./_config.php');
 {
   "@context": "https://schema.org/",
   "@type": "WebSite",
-  "name": "AnimeZia",
+  "name": "AnimeCode",
   "url": "<?=$websiteUrl?>/",
   "potentialAction": {
     "@type": "SearchAction",
@@ -189,7 +189,7 @@ require('./_config.php');
                                             <img class="film-poster-img lazyload"
                                                 data-src="https://ik.imagekit.io/<?=$imgk?>/tr:f-webp/<?=$recentRelease['imgUrl']?>"
                                                 src="https://ik.imagekit.io/<?=$imgk?>/tr:f-webp/<?=$recentRelease['imgUrl']?>"
-                                                alt="Watch free online <?=$recentRelease['name']?> on animezia">
+                                                alt="Watch free online <?=$recentRelease['name']?> on animecode">
                                             <a class="film-poster-ahref"
                                                 href="/watch/<?=$recentRelease['episodeId']?>"
                                                 title="<?=$recentRelease['name']?>"
@@ -297,7 +297,7 @@ require('./_config.php');
                                             <img class="film-poster-img lazyload"
                                                 data-src="https://ik.imagekit.io/<?=$imgk?>/tr:f-webp/<?=$recentReleaseDub['imgUrl']?>"
                                                 src="https://ik.imagekit.io/<?=$imgk?>/tr:f-webp/<?=$recentReleaseDub['imgUrl']?>"
-                                                alt="Watch free online <?=$recentReleaseDub['name']?> on animezia">
+                                                alt="Watch free online <?=$recentReleaseDub['name']?> on animecode">
                                             <a class="film-poster-ahref"
                                                 href="/watch/<?=$recentReleaseDub['episodeId']?>" title="<?=$recentReleaseDub['name']?>"
                                                 data-jname="<?=$recentReleaseDub['name']?>"><i class="fas fa-play"></i></a>
